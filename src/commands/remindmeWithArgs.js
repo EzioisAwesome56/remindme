@@ -38,8 +38,8 @@ module.exports = async function (Bot, msg, args) {
 
     const reminderRX = /"([^]*?)"/i;
     const reminder = reminderRX.exec(msg.cleanContent)[1].trim();
-    if (reminder.length > 1000) {
-        return msg.channel.send('Your reminder cannot exceed 1000 characters.');
+    if (reminder.length > 750) {
+        return msg.channel.send('Your reminder cannot exceed 750 characters.');
     }
 
     await Bot.db.run(`INSERT INTO reminders (owner, reminderText, createdDate, dueDate, channelID)

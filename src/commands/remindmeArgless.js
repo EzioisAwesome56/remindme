@@ -44,6 +44,9 @@ module.exports = async function (Bot, msg) {
         delarray.push(m.id);
 
         if (step === 1) {
+			if (m.content.length > 750){
+				return msg.channel.send('Your reminder cannot be more then 750 characters long');
+			}
             r.reminderText = m.content || m.attachments[0].proxy_url;
 
             Bot.sendMessage(msg.channel.id, 'When would you like to be reminded? (e.g. 24 hours)')
