@@ -19,10 +19,6 @@ Fill in your config file (`src/config.json`) with all of the keys and settings:
   "embedColor": 16777215, // The embed color for all of the embeds that the bot returns, in base10
   "ownerID": "", // ID of the owner of the bot. Gives you access to eval / bash commands
   "tick": 3000, // The tick of the interval at which the bot checks for reminders that are due. Don't put this too low or it'll start sending double reminders
-  "webserver": {
-    "enabled": true, // Whether the webserver should run or not
-    "port": 8080 // The port at which the webserverw would run
-  },
   "keys": {
     "token": "", // Your bot token
     "dbl": "", // discord.bots.org token, leave empty if you don't have one
