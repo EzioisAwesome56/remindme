@@ -12,7 +12,7 @@ cd folderName
 npm install
 ```
 
-Fill in your config file (`src/config-example.json`) with all of the keys and settings:
+Fill in your config file (`src/config.json`) with all of the keys and settings:
 ```js
 {
   "defaultPrefix": "", // Default prefix for the bot
