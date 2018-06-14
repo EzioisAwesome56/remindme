@@ -2,7 +2,7 @@
 Remindme bot version 1.6.1, with minor changed due to the bot being dead now
 ## Getting started
 
-Make sure you have `git` and `node` (Version 7.6.0 tested and working) installed on your machine.
+Make sure you have `git` and `node` (Version 7.6.0 tested and working) installed on your machine.<br>
 _Side note - if your version of Node is below 7.6, you need to run with a `--harmony` flag._
 
 Clone the repo, go into it, npm install:
