@@ -12,6 +12,7 @@ cd folderName
 npm install
 ```
 
+Rename the file `src/config-h.json` to `src/config.json`<br>
 Fill in your config file (`src/config.json`) with all of the keys and settings:
 ```js
 {
