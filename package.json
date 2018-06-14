@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aetheryx/remindme.git"
+    "url": "git+https://github.com/EzioisAwesome56/remindme.git"
   },
-  "author": "Aetheryx",
+  "author": "EzioisAwesome56",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Aetheryx/remindme/issues"
+    "url": "https://github.com/EzioisAwesome56/remindme/issues"
   },
-  "homepage": "https://github.com/Aetheryx/remindme#readme",
+  "homepage": "https://github.com/EzioisAwesome56/remindme#readme",
   "dependencies": {
     "chalk": "^2.1.0",
     "eris": "^0.8.0",
