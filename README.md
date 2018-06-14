@@ -1,19 +1,13 @@
 # RemindMeBot 
-
-[![Build Status](https://travis-ci.org/Aetheryx/remindme.svg?branch=master)](https://travis-ci.org/Aetheryx/remindme)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccbde6fcb76f489fbf5b66970ffe9757)](https://www.codacy.com/app/Aetheryx/remindme?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Aetheryx/remindme&amp;utm_campaign=Badge_Grade)
-[![GitHub release](https://img.shields.io/github/release/Aetheryx/remindme.svg)](https://github.com/Aetheryx/remindme/releases)
-[![License](https://img.shields.io/github/license/aetheryx/remindme.svg)](https://github.com/Aetheryx/remindme/blob/master/LICENSE)
-[![Discord](https://img.shields.io/discord/299979631715549184.svg)](https://discord.gg/Yphr6WG)
-[![issues](https://img.shields.io/github/issues/aetheryx/remindme.svg)](https://github.com/aetheryx/remindme/issues)
-[![prs](https://img.shields.io/github/issues-pr/aetheryx/remindme.svg)](https://github.com/aetheryx/remindme/pulls)
+Remindme bot version 1.6.1, with minor changed due to the bot being dead now
 ## Getting started
 
-Make sure you have `git` and `node` (latest is preferred) installed on your machine. <sup>Side note - if your version of Node is below 7.6, you need to run with a `--harmony` flag.</sup>
+Make sure you have `git` and `node` (Version 7.6.0 tested and working) installed on your machine.
+_Side note - if your version of Node is below 7.6, you need to run with a `--harmony` flag._
 
 Clone the repo, go into it, npm install:
 ```
-git clone https://github.com/Aetheryx/remindme.git folderName
+git clone https://github.com/EzioisAwesome56/remindme.git folderName
 cd folderName
 npm install
 ```
@@ -58,4 +52,4 @@ Fill in your config file (`src/config-example.json`) with all of the keys and se
 At this point, all you have to do is start the bot with `sudo npm start` (or `sudo pm2 start remindmebot.js`).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE file](https://github.com/Aetheryx/remindme/blob/master/LICENSE) for more info. Basically, you can do whatever the fuck you like as long as you mention/credit me. Oh, and you can't sue me if it blows up.
+This project is licensed under the MIT License - see the [LICENSE file](https://github.com/EzioisAwesome56/remindme/blob/master/LICENSE) for more info. Basically, you can do whatever the fuck you like as long as you mention/credit me. Oh, and you can't sue me if it blows up.
