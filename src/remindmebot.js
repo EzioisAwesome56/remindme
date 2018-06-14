@@ -49,9 +49,6 @@ class RMB {
     async start () {
         await this.initDB();
         await this.loadPrefixes();
-        if (this.config.webserver && this.config.webserver.enabled) {
-            require('./website/server.js')(this);
-        }
         require('./handlers/reminderHandler')(this);
 
 
