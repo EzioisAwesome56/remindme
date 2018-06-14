@@ -20,10 +20,7 @@ Fill in your config file (`src/config.json`) with all of the keys and settings:
   "ownerID": "", // ID of the owner of the bot. Gives you access to eval / bash commands
   "tick": 3000, // The tick of the interval at which the bot checks for reminders that are due. Don't put this too low or it'll start sending double reminders
   "keys": {
-    "token": "", // Your bot token
-    "dbl": "", // discord.bots.org token, leave empty if you don't have one
-    "botspw": "", // bots.discord.pw token, leave empty if you don't have one
-    "novo": "" // novo token, leave empty if you don't have one
+    "token": "" // your bot token goes in the quotes
   },
   "disabledEvents": [ // Disabled websocket events. Removing items from this list is probably harmless, but adding some can fuck up things. Be careful.
     "CHANNEL_PINS_UPDATE",
